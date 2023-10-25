@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.back {
+    background-color: rgb(149, 144, 144);
+    background-image: url(caveirachapeudepalha.jpg) repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    max-width: 50%; /* Você pode ajustar a largura máxima da imagem conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Adicione margem direita para separar a imagem do texto */
+}
+
+.text {
+    flex: 1; /* Faz com que o texto ocupe todo o espaço restante */
+    max-width: 400px; /* Defina a largura máxima do texto */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(91, 89, 89);
+  }
+  #menu ul li {
+    display: inline;
+  }
+  #menu ul li a {
+    display: inline;
+    color:white;
+    text-decoration:none;
+    padding: 20px;
+    display: inline-block;
+    transition: .6s;
+    
+  }
+  #menu ul li a:hover {
+    background-color:rgb(181, 11, 11); 
+  }
+    
+.textao{
+   /* display: flex;
+    /*align-items: center;*/
+    text-align: justify;
+
+}
+.textao p {
+    margin-bottom: 20px; /* Adicione margem inferior para separar os parágrafos */
+    max-width: 400px;
+    text-align: justify;
+}
+#Stextao2{
+    /* display: flex;
+     /*align-items: center;*/
+     text-align: justify;
+ 
+ }
+ #textao2 p {
+     margin-bottom: 20px; /* Adicione margem inferior para separar os parágrafos */
+     max-width: 400px;
+     text-align: justify;
+ }
+#conte {
+    background-image: url(caveirachapeudepalha.jpg) repeat;
+}
+#menu2 ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(91, 89, 89);
+  }
+  #menu2 ul li {
+    display: inline;
+  }
+  #menu2 ul li a {
+    display: inline;
+    color:white;
+    text-decoration:none;
+    padding: 20px;
+    display: inline-block;
+    transition: .6s;
+    
+  }
+  #menu2 ul li a:hover {
+    background-color:rgb(181, 11, 11); 
+  }
+  .apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao_links_link{
+    background-color: #000000;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.apresentacao_links_link2{
+    background-color: #000000;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #cdb8b8;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+ 
